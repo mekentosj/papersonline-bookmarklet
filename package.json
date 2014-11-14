@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "./node_modules/.bin/minify bookmarklet.js > bookmarklet.min.js"
+    "build": "./node_modules/.bin/minify bookmarklet.js > bookmarklet.min.js && node docs/build.js > bookmarklet.html"
   },
   "author": "Alex R. Young",
   "license": "MIT",
